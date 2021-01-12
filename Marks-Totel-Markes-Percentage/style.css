@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+.flexx{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+    background-color: lightyellow;
+    color: red;
+  text-shadow: 2px 2px 4px #000000;
+}
+.a{
+    /* margin-bottom:30px ; */
+    color: black;
+  text-shadow: 2px 2px 4px #000000;
+    
+}
+.button:hover {
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    border-radius: 13em;
+  }
+ input{
+    width: 40%;
+    padding:8px 12px;
+    margin: 5px 2;
+    display: inline-block;
+   border-top: solid 2px blue;
+   border-right: solid 2px green;
+    border-bottom:2px solid red ;
+    border-radius: 3em;
+    box-sizing: border-box;
+ }
+ input:hover {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+  }
+  input {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+ 
